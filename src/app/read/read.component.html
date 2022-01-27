@@ -1,0 +1,32 @@
+<p>read works!</p>
+<div class="container">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Image</th>
+            <th scope="col">Name</th>
+            <th scope="col">Cost</th>
+            <th scope="col">Availability</th>
+            <th scope="col">Details</th>
+            <th scope="col">Category</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Edit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr  *ngFor="let product of getAllProducts">
+            <th scope="row">{{product.p_id}}</th>
+            <td><img [src]="product.p_image" class="img-thumbnail"></td>
+            <td>{{product.p_name}}</td>
+            <td>{{product.p_cost}}</td>
+            <td>{{product.p_availability}}</td>
+            <td>{{product.p_details}}</td>
+            <td>{{product.p_category}}</td>
+            <td>{{product.p_quantity}}</td>
+            <td><button class="btn btn-sm btn-primary">edit</button></td>
+          </tr>
+          
+        </tbody>
+      </table>
+</div>

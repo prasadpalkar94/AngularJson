@@ -1,0 +1,42 @@
+{
+   "products": [
+    {
+        "p_name":"Apple",
+        "p_id": 1,
+        "p_cost": 30,
+        "p_availability": 1,
+        "p_details": "Imported From Swiss",
+        "p_category": "Premium",
+        "p_quantity": 5,
+        "p_image": "https://unsplash.com/photos/u6BPMXgURuI"
+    },
+    {
+        "p_name":"Mango",
+        "p_id": 2,
+        "p_cost": 50,
+        "p_availability": 2,
+        "p_details": "Farmed at Salem",
+        "p_category": "TamilNadu",
+        "p_quantity": 5,
+        "p_image": "C:/Users/prasa/OneDrive/Documents/Prasad/angular-project/angular-json/src/assets/images/mango.jpg"
+    },
+    {
+        "p_name":"Banana",
+        "p_id": 3,
+        "p_cost": 5,
+        "p_availability": 0,
+        "p_quantity": 5,
+        "p_image": "path"
+    },
+    {
+        "p_name":"Orange",
+        "p_id": 4,
+        "p_cost": 25,
+        "p_availability": 1,
+        "p_details": "From Nagpur",
+        "p_category": "Premium",
+        "p_quantity": 5,
+        "p_image": "path"
+    }
+]
+}
